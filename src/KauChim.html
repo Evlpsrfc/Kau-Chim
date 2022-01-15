@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <style>
+    foreignObject {
+      pointer-events: painted;
+    }
+
+    svg {
+      pointer-events: none;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+  <svg style="width: 100%;" viewBox="0 0 343 609">
+    <g transform="translate(0 -15000)">
+      <g transform="translate(0 0)">
+        <foreignObject width="343" height="609" y="0">
+          <svg viewBox="0 0 343 609" style="background-image: url(./static/image/1.png);" />
+        </foreignObject>
+        <foreignObject width="343" height="609" y="3000">
+          <svg viewBox="0 0 343 609" style="background-image: url(./static/image/2.png);" />
+        </foreignObject>
+        <foreignObject width="343" height="609" y="6000">
+          <svg viewBox="0 0 343 609" style="background-image: url(./static/image/3.png);" />
+        </foreignObject>
+        <foreignObject width="343" height="609" y="9000">
+          <svg viewBox="0 0 343 609" style="background-image: url(./static/image/4.png);" />
+        </foreignObject>
+        <foreignObject width="343" height="609" y="12000">
+          <svg viewBox="0 0 343 609" style="background-image: url(./static/image/5.png);" />
+        </foreignObject>
+        <foreignObject width="343" height="609" y="15000">
+          <svg viewBox="0 0 343 609" style="background-image: url(./static/image/6.png);" />
+        </foreignObject>
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -3000;0 -6000;0 -9000;0 -12000;0 -15000" repeatCount="indefinite" fill="freeze" begin="0.1s" dur="0.5" calcMode="discrete" end="click" />
+    </g>
+    <g>
+      <foreignObject width="343" height="609">
+        <svg viewBox="0 0 343 609" style="background-image: url(./static/image/0.png);" />
+      </foreignObject>
+      <animateTransform attributeName="transform" type="translate" values="-2000 0" calcMode="discrete" fill="freeze" begin="click" restart="never" />
+    </g>
+  </svg>
+</body>
+
+</html>
